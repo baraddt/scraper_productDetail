@@ -18,10 +18,11 @@ def run_scraper(file: UploadFile = File(...)):
         os.makedirs("data", exist_ok=True)
         os.makedirs("output", exist_ok=True)
 
+        # Simpan file input Excel
         with open(EXCEL_INPUT, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
 
-        # JALANKAN SCRAPER SEBAGAI PROSES TERPISAH
+        # Jalankan scraper
         result = subprocess.run(
             ["python", SCRAPER_SCRIPT], capture_output=True, text=True
         )
@@ -34,18 +35,37 @@ def run_scraper(file: UploadFile = File(...)):
                 status_code=500,
             )
 
-        return {"message": "Scraping selesai. File hasil tersedia untuk diunduh."}
+        # Tambahan pengecekan apakah file hasil dibuat
+        if not os.path.exists(EXCEL_OUTPUT):
+            print("Scraping selesai, tapi file hasil.xlsx tidak ditemukan.")
+            return JSONResponse(
+                content={
+                    "message": "Scraping selesai, tapi file hasil.xlsx tidak ditemukan.",
+                    "stdout": result.stdout,
+                    "stderr": result.stderr,
+                },
+                status_code=500,
+            )
+
+        # File ditemukan, langsung kirim respon
+        return {
+            "message": "Scraping berhasil & file hasil.xlsx tersedia.",
+            "stdout": result.stdout,
+            "detail": "Gunakan endpoint /download untuk mengambil hasil.",
+        }
 
     except Exception as e:
         traceback.print_exc()
-        return JSONResponse(content={"error": str(e)}, status_code=500)
+        return JSONResponse(
+            content={"error": "Unhandled exception", "detail": str(e)}, status_code=500
+        )
 
 
 @app.get("/download")
 def download_result():
     if not os.path.exists(EXCEL_OUTPUT):
         return JSONResponse(
-            content={"error": "File hasil tidak ditemukan."}, status_code=404
+            content={"error": "File hasil.xlsx tidak ditemukan."}, status_code=404
         )
     return FileResponse(
         EXCEL_OUTPUT,
