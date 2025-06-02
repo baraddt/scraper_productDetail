@@ -1,0 +1,255 @@
+{
+  "title": "eSim China Big Data Global Komunika - 3 Hari, 3GB",
+  "variants": [
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "3 Hari",
+      "price": "Rp69.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "3 Hari",
+      "price": "Rp79.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "3 Hari",
+      "price": "Rp109.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "3 Hari",
+      "price": "Rp209.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "3 Hari",
+      "price": "Rp239.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "5 Hari",
+      "price": "Rp69.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "5 Hari",
+      "price": "Rp79.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "5 Hari",
+      "price": "Rp109.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "5 Hari",
+      "price": "Rp219.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "5 Hari",
+      "price": "Rp259.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "7 hari",
+      "price": "Rp69.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "7 hari",
+      "price": "Rp89.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "7 hari",
+      "price": "Rp109.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "7 hari",
+      "price": "Rp229.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "7 hari",
+      "price": "Rp269.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "8 Hari",
+      "price": "Rp79.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "8 Hari",
+      "price": "Rp99.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "8 Hari",
+      "price": "Rp119.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "8 Hari",
+      "price": "Rp239.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "8 Hari",
+      "price": "Rp289.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "10 Hari",
+      "price": "Rp89.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "10 Hari",
+      "price": "Rp109.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "10 Hari",
+      "price": "Rp129.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "10 Hari",
+      "price": "Rp249.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "10 Hari",
+      "price": "Rp299.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "12 Hari",
+      "price": "Rp99.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "12 Hari",
+      "price": "Rp119.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "12 Hari",
+      "price": "Rp139.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "12 Hari",
+      "price": "Rp259.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "12 Hari",
+      "price": "Rp299.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "15 Hari",
+      "price": "Rp109.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "15 Hari",
+      "price": "Rp129.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "15 Hari",
+      "price": "Rp149.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "15 Hari",
+      "price": "Rp269.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "15 Hari",
+      "price": "Rp309.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "20 Hari",
+      "price": "Rp119.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "20 Hari",
+      "price": "Rp139.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "20 Hari",
+      "price": "Rp159.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "20 Hari",
+      "price": "Rp279.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "20 Hari",
+      "price": "Rp329.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "25 Hari",
+      "price": "Rp129.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "25 Hari",
+      "price": "Rp149.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "25 Hari",
+      "price": "Rp169.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "25 Hari",
+      "price": "Rp289.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "25 Hari",
+      "price": "Rp339.000"
+    },
+    {
+      "Kuota": "3GB",
+      "masa_aktif": "30 hari",
+      "price": "Rp139.000"
+    },
+    {
+      "Kuota": "5GB",
+      "masa_aktif": "30 hari",
+      "price": "Rp159.000"
+    },
+    {
+      "Kuota": "10GB",
+      "masa_aktif": "30 hari",
+      "price": "Rp179.000"
+    },
+    {
+      "Kuota": "20GB",
+      "masa_aktif": "30 hari",
+      "price": "Rp299.000"
+    },
+    {
+      "Kuota": "30GB",
+      "masa_aktif": "30 hari",
+      "price": "Rp349.000"
+    }
+  ]
+}
