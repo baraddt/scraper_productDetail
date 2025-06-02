@@ -5,8 +5,8 @@ from core.parser import parse_response
 from excel.insert_results import append_rows_to_excel
 import json
 
-EXCEL_INPUT = "python/data/produk.xlsx"
-EXCEL_OUTPUT = "python/output/hasil.xlsx"
+EXCEL_INPUT = "data/produk.xlsx"
+EXCEL_OUTPUT = "output/hasil.xlsx"
 
 
 def main():

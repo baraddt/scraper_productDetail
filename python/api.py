@@ -7,8 +7,8 @@ import traceback
 
 app = FastAPI()
 
-EXCEL_INPUT = "python/data/produk.xlsx"
-EXCEL_OUTPUT = "python/output/hasil.xlsx"
+EXCEL_INPUT = "data/produk.xlsx"
+EXCEL_OUTPUT = "output/hasil.xlsx"
 SCRAPER_SCRIPT = "python/main.py"
 
 
