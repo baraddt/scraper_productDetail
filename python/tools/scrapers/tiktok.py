@@ -71,7 +71,7 @@ import json
 def scrape(url: str):
     with sync_playwright() as p:
 
-        browser = p.chromium.launch(channel="chrome", headless=True)
+        browser = p.chromium.launch(headless=True)
         # kalo False biar bisa lihat proses nya
 
         context = browser.new_context()

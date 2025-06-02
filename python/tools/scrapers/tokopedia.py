@@ -4,7 +4,7 @@ import json
 
 def scrape(url: str):
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel="chrome", headless=False)
+        browser = p.chromium.launch(headless=False)
         context = browser.new_context(ignore_https_errors=True)
         page = context.new_page()
         page.goto(url)
