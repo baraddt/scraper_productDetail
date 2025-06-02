@@ -9,7 +9,7 @@ app = FastAPI()
 
 EXCEL_INPUT = "data/produk.xlsx"
 EXCEL_OUTPUT = "output/hasil.xlsx"
-SCRAPER_SCRIPT = "main.py"
+SCRAPER_SCRIPT = "python/main.py"
 
 
 @app.post("/scrape")
